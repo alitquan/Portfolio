@@ -1,0 +1,13 @@
+p {
+	font-family: "Montserrat";
+
+}
+
+.bioblock {
+	background-color: var(--color3);
+	padding: 1em;
+	width: 80%;
+	font-size: 1.5em;
+	margin-top: 3em;
+	text-align: justify;
+}
