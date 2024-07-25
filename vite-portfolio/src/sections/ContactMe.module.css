@@ -1,0 +1,31 @@
+:root {
+--formWidth: 60vw;
+--formHeight: 80vh;
+}
+
+.containerContactMe {
+	display:flex; 
+	flex-direction: column; 
+	margin: 5em;
+	padding: 1em;
+	width: var(--formWidth);
+	height: var(--formHeight);
+	background-color: var(--color3);
+} 
+
+.formWords {
+	font-size: 3vh; 
+} 
+
+.formInput, .formMessage{
+	height: 2.5vh;
+	width: 50%;
+	margin-bottom: 1em;
+}
+
+.formTextArea {
+	height: 10vh;
+	width: 50%; 
+
+}
+
