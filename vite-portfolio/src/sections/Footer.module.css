@@ -1,0 +1,25 @@
+:root {
+	--footerHeight: 8vh;
+}
+
+.containerFooter {
+	background-color: var(--color4);
+	display: flex;
+	margin: 0 auto;
+	width: 85vw;
+	height: var(--footerHeight);
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-radius: 1em;
+	padding: 3em;
+}
+
+
+.footerText {
+	font-family: Montserrat; 
+	font-size: 2vh;
+	color: white; 
+} 
+
+

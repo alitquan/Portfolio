@@ -1,8 +1,8 @@
 :root {
 --gridWidth1: 80vw;
 --gridHeight1: 60vh;
---gridHeight2: 53vh;
---gridWidth2: 60vh;
+--gridHeight2: 45vh;
+--gridWidth2: 55vh;
   /*--color0: #B8D5B8; */
   /*--color1: #05A8AA; */
   /*--btn-color: #0987f2;*/
@@ -22,7 +22,6 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-	/*background-color: green;*/
 	margin-bottom: 3em;
 }
 
@@ -32,4 +31,26 @@
 	background-color: var(--color3);
 	/*background-color: red;*/
 	border-radius: 1em;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	font-size: 3.5vh;
+	transition: background-image 0.5s ease-in-out; 
 }
+
+
+.gridProjectsItem p {
+	transition: opacity 0.5s ease-in-out;
+} 
+
+.gridProjectsItem:hover {
+	background-image: url('../assets/portland.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+}
+
+
+.gridProjectsItem:hover p {
+	opacity: 0;
+}
+

@@ -8,21 +8,24 @@ function SideProjects() {
 			<div className={styles2.gridProjects}>
 				<div className = {styles2.gridProjectsRow}> 
 					<div className = {styles2.gridProjectsItem}>
-						One
+						<p>One</p> 
 					</div>
 
 					<div className = {styles2.gridProjectsItem}>
-						Two
+
+						<p>One</p> 
 					</div>
 
 				</div> 
 				<div className = {styles2.gridProjectsRow}> 
 					<div className = {styles2.gridProjectsItem}>
-						Three
+
+						<p>One</p> 
 					</div>
 
 					<div className = {styles2.gridProjectsItem}>
-						Four
+
+						<p>One</p> 
 					</div>
 
 				</div> 

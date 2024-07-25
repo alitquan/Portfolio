@@ -16,11 +16,18 @@ function Home() {
 
 			<div className={styles.containerNavigation}>
 				<nav>
-					<Link activeClass="active" to="about-me" spy={true} smooth={true} duration={500}> <p>About Me</p> </Link>	
+					<Link activeClass="active" to="about-me" spy={true} smooth={true} duration={500}> <p>ABOUT ME</p> </Link>	
 				</nav> 
-				<p> RESUME </p> 
-				<p> PROJECTS </p>
-				<p> CONTACT ME </p>		
+				<p> RESUME</p>
+				<nav>
+					<Link activeClass="active" to="sideprojects" spy={true} smooth={true} duration={500}> <p> PROJECTS </p>  </Link>	
+				</nav>
+				
+				<nav>
+					<Link activeClass="active" to="contact-me" spy={true} smooth={true} duration={500}>  				<p> CONTACT ME </p> </Link>	
+				</nav>
+
+
 			</div> 
 
 			<div className={styles.imageCrop}>
